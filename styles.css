@@ -111,3 +111,10 @@ body {
 .btn:focus {
     background-color: #2796ff;
 }
+
+@media (max-width: 800px) {
+    .main-footer .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
